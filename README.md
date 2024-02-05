@@ -4,6 +4,7 @@
 1. Ensure that you have the Office LTSC 2021 installation files ready.
 2. Make sure you have the necessary permissions for the deployment.
 
+
 ## Step 2: Create Deployment Configuration XML
 1. Create a new text file named `configuration.xml`.
 2. Copy and paste the following XML content into the file:
@@ -17,10 +18,4 @@
   </Add>
   <Display Level="None" AcceptEULA="TRUE" />
   <Property Name="AUTOACTIVATE" Value="1" />
-</Configuration>
-
-## If it's doesnot work just run the setup.exe after download the  Office LTSC 2021 Deployment then paste the activation code..
-
-## ACTIVATION CODE
-
-FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH
+  <Configuration>
